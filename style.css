@@ -1,0 +1,34 @@
+.maindiv{
+    background-color: salmon;
+    border: 10px double black;
+    width: 500px;
+    height: 500px;
+    display: inline-block;
+    text-align: center;
+    padding: 100px;
+}
+.pic{
+    width: 250px;
+    height: 250px;
+
+}
+#tatapic{
+    object-fit: cover;
+    object-position: -60px -25px;
+}
+#tatadiv{
+    background-image: url("./images/tataloga.png");
+    background-size: 1000px 1000px;
+    background-repeat:  repeat-x;
+    background-position: center bottom;
+    background-attachment:fixed;
+   
+}
+#ambanipic{
+    background-image: url("./images/relilogo.png");
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    background-position:right top ;
+    background-origin: content-box;
+    background-clip: content-box;
+}
